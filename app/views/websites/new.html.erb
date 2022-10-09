@@ -1,0 +1,25 @@
+<div style="margin: 20px">
+<h2><strong>New website</strong></h2>
+
+  <%= form_with model: @website do |form| %>
+    <div>
+      <%= form.label :name %><br>
+      <%= form.text_field :name %>
+      <% @website.errors.full_messages_for(:name).each do |message| %>
+        <div class="text-danger"><%= message %></div>
+      <% end %>
+    </div>
+
+    <div>
+      <%= form.label :url %><br>
+      <%= form.text_area :url %>
+      <% @website.errors.full_messages_for(:url).each do |message| %>
+        <div class="text-danger"><%= message %></div>
+      <% end %>
+    </div>
+
+    <div>
+      <%= form.submit %>
+    </div>
+  <% end %>
+</div>

@@ -1,0 +1,3 @@
+queues:
+  - website_status
+  - default
