@@ -1,24 +1,5 @@
-# README
+# UpTime Robot Rails Application
+## That Check Website is UP (True Website) Or DOWN (Fake Website)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<img src="https://m7madmagdy.github.io/pages/upTime_Robot.png" width="700"/>
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
