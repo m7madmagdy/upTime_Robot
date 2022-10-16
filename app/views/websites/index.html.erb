@@ -18,7 +18,12 @@
         <th><%= website.id %></th>
         <td><%= website.name %></td>
         <td><%= website.url %></td>
-        <td><%= website.status %></td>
+        <% if website.status == 'Up' %>
+          <td class="text-success"><%= website.status %></td>
+        <% else %>
+          <td class="text-danger"><%= website.status %></td>
+        <% end %>
+
         <td><%= website.last_checked_at %></td>
       </tr>
     <% end %>
