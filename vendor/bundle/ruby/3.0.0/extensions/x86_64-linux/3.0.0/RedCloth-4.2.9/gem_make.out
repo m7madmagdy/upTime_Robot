@@ -1,0 +1,22 @@
+current directory: /home/m7mad/RubymineProjects/upTime_Robot/vendor/bundle/ruby/3.0.0/gems/RedCloth-4.2.9/ext/redcloth_scan
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r ./siteconf20230124-16710-oz7lh6.rb extconf.rb
+checking for main() in -lc... yes
+creating Makefile
+
+current directory: /home/m7mad/RubymineProjects/upTime_Robot/vendor/bundle/ruby/3.0.0/gems/RedCloth-4.2.9/ext/redcloth_scan
+make DESTDIR\= clean
+
+current directory: /home/m7mad/RubymineProjects/upTime_Robot/vendor/bundle/ruby/3.0.0/gems/RedCloth-4.2.9/ext/redcloth_scan
+make DESTDIR\=
+compiling redcloth_attributes.c
+ragel/redcloth_attributes.c.rl: In function ‘redcloth_attribute_parser’:
+ragel/redcloth_attributes.c.rl:27:11: warning: variable ‘act’ set but not used [-Wunused-but-set-variable]
+compiling redcloth_inline.c
+ragel/redcloth_inline.c.rl: In function ‘red_block’:
+ragel/redcloth_inline.c.rl:100:9: warning: variable ‘attr_regs’ set but not used [-Wunused-but-set-variable]
+compiling redcloth_scan.c
+linking shared-object redcloth_scan.so
+
+current directory: /home/m7mad/RubymineProjects/upTime_Robot/vendor/bundle/ruby/3.0.0/gems/RedCloth-4.2.9/ext/redcloth_scan
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 redcloth_scan.so ./.gem.20230124-16710-xgarqj

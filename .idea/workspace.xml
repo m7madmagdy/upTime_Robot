@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="553440aa-acfa-425c-9d4c-bdff449cd7b4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/app/jobs/website_status_worker.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/jobs/website_status_worker.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/website.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/website.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/websites/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/websites/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/schedule.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/schedule.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/upTime_Robot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/upTime_Robot.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,21 +43,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Ruby.ViewRefParam.DefaultExtension": "html.erb",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/m7mad/Workspace/Learning Projects/Backend/upTime_Robot",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ruby.rails.projectView.checked": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Ruby.ViewRefParam.DefaultExtension&quot;: &quot;html.erb&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/m7mad/Workspace/Learning Projects/Backend/upTime_Robot&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ruby.rails.projectView.checked&quot;: &quot;true&quot;,
+    &quot;ruby.structure.view.model.defaults.configured&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/config" />
@@ -175,6 +177,8 @@
       <updated>1665355174695</updated>
       <workItem from="1665355176093" duration="3815000" />
       <workItem from="1665928782814" duration="4769000" />
+      <workItem from="1674550882980" duration="298000" />
+      <workItem from="1674551193166" duration="386000" />
     </task>
     <servers />
   </component>

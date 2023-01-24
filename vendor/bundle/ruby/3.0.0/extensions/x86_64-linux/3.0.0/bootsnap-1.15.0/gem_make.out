@@ -1,0 +1,15 @@
+current directory: /home/m7mad/RubymineProjects/upTime_Robot/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.15.0/ext/bootsnap
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r ./siteconf20230124-21625-h06yxm.rb extconf.rb
+creating Makefile
+
+current directory: /home/m7mad/RubymineProjects/upTime_Robot/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.15.0/ext/bootsnap
+make DESTDIR\= clean
+
+current directory: /home/m7mad/RubymineProjects/upTime_Robot/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.15.0/ext/bootsnap
+make DESTDIR\=
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.so
+
+current directory: /home/m7mad/RubymineProjects/upTime_Robot/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.15.0/ext/bootsnap
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 bootsnap.so ./.gem.20230124-21625-xvfvv6/bootsnap

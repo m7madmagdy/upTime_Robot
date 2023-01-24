@@ -1,0 +1,38 @@
+current directory: /home/m7mad/RubymineProjects/upTime_Robot/vendor/bundle/ruby/3.0.0/gems/redcarpet-3.1.2/ext/redcarpet
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r ./siteconf20230124-16710-z0tsd8.rb extconf.rb
+creating Makefile
+
+current directory: /home/m7mad/RubymineProjects/upTime_Robot/vendor/bundle/ruby/3.0.0/gems/redcarpet-3.1.2/ext/redcarpet
+make DESTDIR\= clean
+
+current directory: /home/m7mad/RubymineProjects/upTime_Robot/vendor/bundle/ruby/3.0.0/gems/redcarpet-3.1.2/ext/redcarpet
+make DESTDIR\=
+compiling autolink.c
+compiling buffer.c
+compiling houdini_href_e.c
+compiling houdini_html_e.c
+compiling html.c
+html.c: In function ‘rndr_header’:
+html.c:290:71: warning: passing argument 1 of ‘header_anchor’ discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+  290 |                 bufprintf(ob, "<h%d id=\"%s\">", level, header_anchor(text));
+      |                                                                       ^~~~
+html.c:268:33: note: expected ‘struct buf *’ but argument is of type ‘const struct buf *’
+  268 | char *header_anchor(struct buf *text)
+      |                     ~~~~~~~~~~~~^~~~
+html.c: In function ‘toc_header’:
+html.c:638:65: warning: passing argument 1 of ‘header_anchor’ discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+  638 |                 bufprintf(ob, "<a href=\"#%s\">", header_anchor(text));
+      |                                                                 ^~~~
+html.c:268:33: note: expected ‘struct buf *’ but argument is of type ‘const struct buf *’
+  268 | char *header_anchor(struct buf *text)
+      |                     ~~~~~~~~~~~~^~~~
+compiling html_smartypants.c
+compiling markdown.c
+compiling rc_markdown.c
+compiling rc_render.c
+compiling stack.c
+linking shared-object redcarpet.so
+
+current directory: /home/m7mad/RubymineProjects/upTime_Robot/vendor/bundle/ruby/3.0.0/gems/redcarpet-3.1.2/ext/redcarpet
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 redcarpet.so ./.gem.20230124-16710-ii0pvc
