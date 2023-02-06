@@ -1,25 +1,26 @@
 <div style="margin: 20px">
-<h2><strong>New website</strong></h2>
+<h2 class="form-group mx-sm-3 mb-2"><strong>New website</strong></h2>
 
   <%= form_with model: @website do |form| %>
-    <div>
-      <%= form.label :name %><br>
-      <%= form.text_field :name %>
+    <p class="form-group mx-sm-3 mb-2">
+      <%= form.label :name%><br>
+      <%= form.text_field :name, class: "form-control mb-2" , placeholder: "Facebook" %>
       <% @website.errors.full_messages_for(:name).each do |message| %>
         <div class="text-danger"><%= message %></div>
       <% end %>
-    </div>
+    </p>
 
-    <div>
+    <p class="form-group mx-sm-3 mb-2">
       <%= form.label :url %><br>
-      <%= form.text_area :url %>
+      <%= form.text_field :url, class: "form-control" , placeholder: "https://www.facebook.com" %>
       <% @website.errors.full_messages_for(:url).each do |message| %>
         <div class="text-danger"><%= message %></div>
       <% end %>
-    </div>
+    </p>
+  
+    <p class="form-group mx-sm-3 mb-2">
+      <%= form.submit class: "btn btn-primary" %>
+    </p>
 
-    <div>
-      <%= form.submit %>
-    </div>
   <% end %>
 </div>
